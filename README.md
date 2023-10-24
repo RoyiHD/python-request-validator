@@ -7,10 +7,8 @@ It can be used with Flask, Django or any other api framework.
 create your project folder and a virtual environment
 
 ```sh
-mkdir request-validation
-cd request-validation
 
-# Make sure you have virtualenv setup
+# If you choose to use a dedicated virtual env, I recommend using virtualenv
 virtaulenv packges
 
 pip install .
