@@ -1,8 +1,6 @@
 from setuptools import find_packages, setup
 
-
 project = "Foo"
-
 version = "0.1.0"
 
 setup(
