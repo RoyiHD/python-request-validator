@@ -2,9 +2,7 @@ from functools import wraps
 from flask import g, request
 from typing import Callable
 
-from werkzeug.exceptions import HTTPException
-
-from pydantic import BaseModel, ValidationError
+from pydantic import BaseModel
 
 def request_dto(dto_cls: type[BaseModel]) -> Callable:
 

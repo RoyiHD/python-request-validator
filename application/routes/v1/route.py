@@ -1,5 +1,4 @@
-from datetime import datetime
-from flask import Flask, jsonify
+from flask import Flask
 
 from application.decorators import request_dto, response_dto
 from application.routes.v1.dtos import FooRequest, FooResponse
